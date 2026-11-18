@@ -1,0 +1,18 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 25,
+  "safeZonePx": 250,
+  "scenes": {
+    "hook":     { "from": 0,  "to": 4 },
+    "cuba":     { "from": 4,  "to": 9 },
+    "split":    { "from": 9,  "to": 14 },
+    "heart":    { "from": 14, "to": 20 },
+    "title":    { "from": 20, "to": 25 }
+  },
+  "transitionSec": 0.6,
+  "heartbeat": { "startBpm": 64, "endBpm": 150, "endPaddingSec": 0.35 },
+  "titleHitOffsetSec": 0.25,
+  "audio": { "sampleRate": 48000, "fadeInSec": 2.0, "fadeOutSec": 2.5 }
+}
